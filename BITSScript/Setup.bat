@@ -1,0 +1,2 @@
+PowerShell.exe -Command ".\CreateBITSWebSite.ps1 -BitsSiteName 'BITS' -ApplicationPool 'BITS' -BitsSitePort 8083 -BitsSitePhysicalPath 'D:\BITS_NewWebSite' -BitsSiteUploadFolderName 'BITSUpload' -Authorization 'WindowsAuthentication'"
+PAUSE
